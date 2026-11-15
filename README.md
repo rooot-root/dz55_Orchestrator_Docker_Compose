@@ -139,7 +139,7 @@ services:
 ![Задание 1](./img/14.png);
 ![Задание 1](./img/15.png);
 
-Запустился compose.yaml, потому что Compose по умолчанию ищет файл с именем compose.yaml (приоритетнее), а docker-compose.yaml — устаревшее имя, которое используется только если compose.yaml отсутствует. Предупреждение Found multiple config files это подтверждает.
+Запустился compose.yaml, потому что Compose по умолчанию ищет файл с именем compose.yaml (приоритетнее), а docker-compose.yaml — устаревшее имя, которое используется только если compose.yaml отсутствует. Предупреждение Found multiple config files это подтверждает
 
 После docker compose up -d запустились оба сервиса: portainer и registry.
 
